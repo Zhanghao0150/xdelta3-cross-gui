@@ -400,7 +400,7 @@ namespace xdelta3_cross_gui
         {
             if (language == null || !Localizer.Languages.ContainsKey(language))
             {
-                language = "English";
+                language = "ÖÐÎÄ(¼òÌå)";
             }
 
             CultureInfo.CurrentUICulture = new CultureInfo(Localizer.Languages[language]);
